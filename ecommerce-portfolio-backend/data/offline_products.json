@@ -1,0 +1,321 @@
+[
+  {
+    "_id": "prod-1",
+    "id": "prod-1",
+    "slug": "docker-tactical-anc-wireless-headphones",
+    "title": "Docker Edition Hybrid ANC Studio Wireless Headphones",
+    "category": "Audio & Headphones",
+    "categoryName": "Audio & Headphones",
+    "shortDescription": "Studio-grade 40mm neodymium drivers, active hybrid noise cancellation, and 40-hour ultra battery life.",
+    "description": "Built for creators, engineers, and music enthusiasts. Features custom tuned 40mm neodymium acoustic drivers, aerospace-grade matte black finish, active hybrid noise suppression, and plush memory foam cushions for all-day comfort.",
+    "price": 18500,
+    "salePrice": 14999,
+    "discountPercent": 19,
+    "stock": 25,
+    "inStock": true,
+    "rating": 4.9,
+    "numReviews": 48,
+    "isFeatured": true,
+    "isBestSeller": true,
+    "isNewArrival": false,
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=1200&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=1200&q=80",
+      "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=1200&q=80"
+    ],
+    "variants": [
+      {
+        "name": "Color",
+        "options": [
+          "Matte Black",
+          "Graphite Gray"
+        ]
+      }
+    ],
+    "specifications": [
+      {
+        "title": "Driver Size",
+        "value": "40mm Dynamic Neodymium"
+      },
+      {
+        "title": "Battery Life",
+        "value": "Up to 40 Hours with ANC"
+      },
+      {
+        "title": "Connectivity",
+        "value": "Bluetooth 5.3 + 3.5mm Aux"
+      },
+      {
+        "title": "Warranty",
+        "value": "1 Year Official Replacement"
+      }
+    ],
+    "tags": [
+      "headphones",
+      "audio",
+      "anc",
+      "wireless",
+      "docker"
+    ]
+  },
+  {
+    "_id": "prod-2",
+    "id": "prod-2",
+    "slug": "stealth-chrono-316l-sapphire-watch",
+    "title": "Stealth Chrono 316L Sapphire Tactical Chronograph Watch",
+    "category": "Smart Watches",
+    "categoryName": "Smart Watches",
+    "shortDescription": "Precision Japanese quartz chronograph encased in 316L surgical stainless steel with sapphire crystal.",
+    "description": "Uncompromising minimalism meets industrial durability. Encased in high-grade 316L matte black steel with anti-reflective scratchproof sapphire crystal glass and 50M water resistance.",
+    "price": 12500,
+    "salePrice": 9999,
+    "discountPercent": 20,
+    "stock": 18,
+    "inStock": true,
+    "rating": 4.8,
+    "numReviews": 36,
+    "isFeatured": true,
+    "isBestSeller": true,
+    "isNewArrival": false,
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=1200&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=1200&q=80",
+      "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=1200&q=80"
+    ],
+    "variants": [
+      {
+        "name": "Strap",
+        "options": [
+          "Cognac Brown Leather",
+          "Obsidian Black Silicone"
+        ]
+      }
+    ],
+    "specifications": [
+      {
+        "title": "Case Material",
+        "value": "316L Surgical Stainless Steel"
+      },
+      {
+        "title": "Glass",
+        "value": "Scratch-Resistant Sapphire Crystal"
+      },
+      {
+        "title": "Water Resistance",
+        "value": "5 ATM / 50 Meters"
+      }
+    ],
+    "tags": [
+      "watch",
+      "chronograph",
+      "tactical",
+      "docker",
+      "luxury"
+    ]
+  },
+  {
+    "_id": "prod-3",
+    "id": "prod-3",
+    "slug": "apex-cyber-knit-running-shoes",
+    "title": "Apex Cyber-Knit Stealth Performance Running Shoes",
+    "category": "Footwear",
+    "categoryName": "Footwear",
+    "shortDescription": "Aerodynamic breathable engineered mesh with carbon-plate energy rebound cushioning.",
+    "description": "Designed for peak athletic speed and futuristic streetwear style. Dual-layer cyber-knit upper provides seamless airflow while the carbon-fiber midsole delivers explosive energy return.",
+    "price": 14500,
+    "salePrice": 11999,
+    "discountPercent": 17,
+    "stock": 30,
+    "inStock": true,
+    "rating": 4.9,
+    "numReviews": 52,
+    "isFeatured": true,
+    "isBestSeller": false,
+    "isNewArrival": true,
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=1200&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=1200&q=80",
+      "https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=1200&q=80"
+    ],
+    "variants": [
+      {
+        "name": "Size (EU)",
+        "options": [
+          "40",
+          "41",
+          "42",
+          "43",
+          "44",
+          "45"
+        ]
+      }
+    ],
+    "specifications": [
+      {
+        "title": "Sole Tech",
+        "value": "Carbon-Plate Rebound Cushioning"
+      },
+      {
+        "title": "Upper Material",
+        "value": "Engineered Cyber-Knit Breathable Mesh"
+      }
+    ],
+    "tags": [
+      "shoes",
+      "sneakers",
+      "running",
+      "docker",
+      "fitness"
+    ]
+  },
+  {
+    "_id": "prod-4",
+    "id": "prod-4",
+    "slug": "carbon-shield-rfid-leather-wallet",
+    "title": "Carbon-Shield RFID Minimalist Bifold Leather Wallet",
+    "category": "Fashion & Apparel",
+    "categoryName": "Fashion & Apparel",
+    "shortDescription": "Handcrafted full-grain matte leather with built-in aerospace RFID blocking lining and 8 card slots.",
+    "description": "Combines timeless Italian craftsmanship with high-tech security. Built-in RFID protection safeguards your contactless cards against wireless digital skimming.",
+    "price": 4500,
+    "salePrice": 3499,
+    "discountPercent": 22,
+    "stock": 45,
+    "inStock": true,
+    "rating": 4.9,
+    "numReviews": 64,
+    "isFeatured": true,
+    "isBestSeller": true,
+    "isNewArrival": false,
+    "image": "https://images.unsplash.com/photo-1627123424574-724758594e93?w=1200&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1627123424574-724758594e93?w=1200&q=80"
+    ],
+    "variants": [
+      {
+        "name": "Color",
+        "options": [
+          "Matte Black",
+          "Vintage Tan"
+        ]
+      }
+    ],
+    "specifications": [
+      {
+        "title": "Material",
+        "value": "100% Full-Grain Cowhide Leather"
+      },
+      {
+        "title": "Capacity",
+        "value": "8 Cards + 2 Currency Slots"
+      }
+    ],
+    "tags": [
+      "wallet",
+      "leather",
+      "rfid",
+      "docker",
+      "accessories"
+    ]
+  },
+  {
+    "_id": "prod-5",
+    "id": "prod-5",
+    "slug": "cyberpack-modular-tactical-backpack",
+    "title": "CyberPack Modular Waterproof Tactical Tech Backpack",
+    "category": "Accessories",
+    "categoryName": "Accessories",
+    "shortDescription": "1000D Cordura ballistic waterproof nylon, YKK weatherproof zippers, and dedicated 16-inch laptop chamber.",
+    "description": "The ultimate tactical commuter backpack. Engineered with water-repellent 1000D Cordura, ergonomic breathable back padding, secret travel passport pocket, and built-in USB-C pass-through port.",
+    "price": 8500,
+    "salePrice": 6999,
+    "discountPercent": 18,
+    "stock": 20,
+    "inStock": true,
+    "rating": 4.9,
+    "numReviews": 29,
+    "isFeatured": true,
+    "isBestSeller": false,
+    "isNewArrival": true,
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=1200&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=1200&q=80"
+    ],
+    "variants": [
+      {
+        "name": "Color",
+        "options": [
+          "Stealth Black",
+          "Olive Drab"
+        ]
+      }
+    ],
+    "specifications": [
+      {
+        "title": "Capacity",
+        "value": "28 Liters"
+      },
+      {
+        "title": "Material",
+        "value": "1000D Ballistic Waterproof Nylon"
+      }
+    ],
+    "tags": [
+      "backpack",
+      "tactical",
+      "docker",
+      "travel",
+      "waterproof"
+    ]
+  },
+  {
+    "_id": "prod-6",
+    "id": "prod-6",
+    "slug": "magvolt-100w-gan-charging-station",
+    "title": "MagVolt 100W GaN Industrial Fast Desktop Charging Station",
+    "category": "Electronics",
+    "categoryName": "Electronics",
+    "shortDescription": "Ultra-compact Gallium Nitride (GaN) fast charger with 4 ports (3x USB-C PD 3.0 + 1x USB-A QC 4.0).",
+    "description": "Supercharge your laptop, smartphone, tablet, and smart watch simultaneously at full speed. Advanced GaN technology runs 40% cooler with intelligent multi-protection against surges and overheating.",
+    "price": 7200,
+    "salePrice": 5799,
+    "discountPercent": 19,
+    "stock": 35,
+    "inStock": true,
+    "rating": 5,
+    "numReviews": 41,
+    "isFeatured": true,
+    "isBestSeller": true,
+    "isNewArrival": true,
+    "image": "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?w=1200&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?w=1200&q=80"
+    ],
+    "variants": [
+      {
+        "name": "Finish",
+        "options": [
+          "Space Gray",
+          "Matte Silver"
+        ]
+      }
+    ],
+    "specifications": [
+      {
+        "title": "Total Power",
+        "value": "100W Max Fast Delivery"
+      },
+      {
+        "title": "Ports",
+        "value": "3x USB-C (PD 3.0) + 1x USB-A (QC 4.0)"
+      }
+    ],
+    "tags": [
+      "charger",
+      "gan",
+      "tech",
+      "docker",
+      "gadget"
+    ]
+  }
+]

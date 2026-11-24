@@ -1,0 +1,436 @@
+
+/* =====================================================
+   PUBLIC MESSAGE FORM — PREMIUM CONTACT EXPERIENCE
+===================================================== */
+
+.public-message {
+  --pm-accent: #8270ff;
+  --pm-accent-bright: #a79aff;
+  --pm-text: #f2f2fb;
+  --pm-muted: #a0a7ba;
+  --pm-border: rgba(255, 255, 255, 0.09);
+
+  display: grid;
+  grid-template-columns: minmax(0, 0.88fr) minmax(0, 1.12fr);
+  align-items: center;
+  gap: clamp(30px, 5vw, 70px);
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: clamp(24px, 5vw, 65px);
+  color: var(--pm-text);
+  background:
+    radial-gradient(
+      ellipse at 0 0,
+      rgba(130, 112, 255, 0.12),
+      transparent 42%
+    ),
+    #0c0e16;
+  border: 1px solid var(--pm-border);
+  border-radius: 25px;
+  font-family: "Outfit", sans-serif;
+}
+
+.public-message *,
+.public-message *::before,
+.public-message *::after {
+  box-sizing: border-box;
+}
+
+.public-message__intro {
+  min-width: 0;
+}
+
+.public-message__eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 22px;
+  color: var(--pm-accent-bright);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.public-message__eyebrow > span {
+  width: 25px;
+  height: 2px;
+  background: var(--pm-accent);
+  border-radius: 2px;
+  box-shadow: 0 0 12px rgba(130, 112, 255, 0.5);
+}
+
+.public-message__intro h2 {
+  max-width: 440px;
+  margin: 0;
+  color: #f4f3ff;
+  font-size: clamp(32px, 4.2vw, 54px);
+  font-weight: 800;
+  line-height: 1.13;
+  letter-spacing: -1.9px;
+}
+
+.public-message__intro h2 span {
+  color: #9b8aff;
+}
+
+.public-message__intro > p {
+  max-width: 430px;
+  margin: 20px 0 0;
+  color: var(--pm-muted);
+  font-size: 14px;
+  line-height: 1.95;
+}
+
+.public-message__trust {
+  display: flex;
+  align-items: flex-start;
+  gap: 13px;
+  max-width: 400px;
+  margin-top: 34px;
+  padding: 17px;
+  background: rgba(255, 255, 255, 0.025);
+  border: 1px solid var(--pm-border);
+  border-radius: 15px;
+}
+
+.public-message__trust-icon {
+  display: grid;
+  place-items: center;
+  flex: 0 0 41px;
+  width: 41px;
+  height: 41px;
+  color: #b6aaff;
+  background: rgba(130, 112, 255, 0.13);
+  border: 1px solid rgba(130, 112, 255, 0.16);
+  border-radius: 12px;
+}
+
+.public-message__trust > div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  min-width: 0;
+}
+
+.public-message__trust strong {
+  color: #e8e7f5;
+  font-size: 13px;
+}
+
+.public-message__trust > div > span {
+  color: #969db1;
+  font-size: 11px;
+  line-height: 1.7;
+}
+
+/* Form card */
+
+.public-message__form {
+  min-width: 0;
+  padding: clamp(20px, 3vw, 32px);
+  background:
+    linear-gradient(
+      150deg,
+      rgba(255, 255, 255, 0.035),
+      transparent 48%
+    ),
+    #121522;
+  border: 1px solid rgba(255, 255, 255, 0.095);
+  border-radius: 21px;
+  box-shadow: 0 25px 65px rgba(0, 0, 0, 0.22);
+}
+
+.public-message__form-heading {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  margin-bottom: 25px;
+}
+
+.public-message__heading-icon {
+  display: grid;
+  place-items: center;
+  flex: 0 0 47px;
+  width: 47px;
+  height: 47px;
+  color: #c3baff;
+  background: rgba(130, 112, 255, 0.14);
+  border: 1px solid rgba(130, 112, 255, 0.18);
+  border-radius: 14px;
+}
+
+.public-message__form-heading h3 {
+  margin: 0;
+  color: #f4f3ff;
+  font-size: 20px;
+  font-weight: 750;
+}
+
+.public-message__form-heading p {
+  margin: 5px 0 0;
+  color: #8f97ad;
+  font-size: 11px;
+}
+
+/* Form feedback */
+
+.public-message__feedback {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 18px;
+  padding: 12px 13px;
+  border: 1px solid transparent;
+  border-radius: 11px;
+  font-size: 12px;
+  line-height: 1.7;
+  overflow-wrap: anywhere;
+}
+
+.public-message__feedback--success {
+  color: #a0f0c4;
+  background: rgba(16, 185, 129, 0.09);
+  border-color: rgba(16, 185, 129, 0.2);
+}
+
+.public-message__feedback--error {
+  color: #ffb4c0;
+  background: rgba(244, 63, 94, 0.09);
+  border-color: rgba(244, 63, 94, 0.2);
+}
+
+/* Fields */
+
+.public-message__fields {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 19px 15px;
+}
+
+.public-message__field {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  min-width: 0;
+}
+
+.public-message__field--full {
+  grid-column: 1 / -1;
+}
+
+.public-message__field > span {
+  color: #d8d9e8;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.public-message__field input,
+.public-message__field textarea {
+  display: block;
+  width: 100%;
+  min-width: 0;
+  padding: 13px 14px;
+  color: #f4f3ff;
+  background: #0c101a;
+  border: 1px solid rgba(255, 255, 255, 0.095);
+  border-radius: 11px;
+  outline: none;
+  font-family: inherit;
+  font-size: 12px;
+  line-height: 1.65;
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    background 0.2s ease;
+}
+
+.public-message__field input {
+  height: 46px;
+}
+
+.public-message__field textarea {
+  min-height: 130px;
+  resize: vertical;
+}
+
+.public-message__field input::placeholder,
+.public-message__field textarea::placeholder {
+  color: #737c92;
+  opacity: 1;
+}
+
+.public-message__field input:focus,
+.public-message__field textarea:focus,
+.public-message__input-wrap:focus-within {
+  border-color: rgba(130, 112, 255, 0.75);
+  box-shadow: 0 0 0 3px rgba(130, 112, 255, 0.09);
+  background: #0e1220;
+}
+
+.public-message__field input:disabled,
+.public-message__field textarea:disabled {
+  cursor: not-allowed;
+  opacity: 0.65;
+}
+
+.public-message__input-wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 46px;
+  padding-left: 13px;
+  color: #878fa5;
+  background: #0c101a;
+  border: 1px solid rgba(255, 255, 255, 0.095);
+  border-radius: 11px;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.public-message__input-wrap input {
+  flex: 1;
+  width: 100%;
+  min-width: 0;
+  height: 100%;
+  padding: 0 12px 0 0;
+  color: #f4f3ff;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  outline: 0;
+  box-shadow: none;
+}
+
+.public-message__input-wrap input:focus {
+  background: transparent;
+  border: 0;
+  outline: 0;
+  box-shadow: none;
+}
+
+.public-message__counter {
+  align-self: flex-end;
+  color: #81899e;
+  font-size: 10px;
+}
+
+/* Submit */
+
+.public-message__submit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: 100%;
+  min-height: 49px;
+  margin-top: 23px;
+  padding: 12px 17px;
+  color: #fff;
+  background: linear-gradient(110deg, #8875ff, #6752e9);
+  border: 1px solid rgba(187, 176, 255, 0.2);
+  border-radius: 12px;
+  box-shadow: 0 9px 24px rgba(103, 82, 233, 0.2);
+  font-size: 13px;
+  font-weight: 800;
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.public-message__submit:hover:not(:disabled) {
+  transform: translateY(-2px);
+  filter: brightness(1.1);
+}
+
+.public-message__submit:disabled {
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.public-message__spin {
+  animation: public-message-rotate 1s linear infinite;
+}
+
+@keyframes public-message-rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.public-message__note {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 7px;
+  margin: 15px 0 0;
+  color: #878fa4;
+  font-size: 10px;
+  line-height: 1.7;
+  text-align: center;
+}
+
+.public-message__note svg {
+  flex-shrink: 0;
+  color: #a79aff;
+}
+
+/* Responsive */
+
+@media (max-width: 900px) {
+  .public-message {
+    grid-template-columns: 1fr;
+    gap: 32px;
+    padding: 30px;
+  }
+
+  .public-message__intro h2 {
+    max-width: 600px;
+    font-size: clamp(33px, 6vw, 47px);
+  }
+
+  .public-message__intro > p {
+    max-width: 600px;
+  }
+
+  .public-message__trust {
+    margin-top: 23px;
+  }
+}
+
+@media (max-width: 520px) {
+  .public-message {
+    gap: 25px;
+    padding: 20px 14px;
+    border-radius: 18px;
+  }
+
+  .public-message__intro h2 {
+    font-size: 34px;
+    letter-spacing: -1.2px;
+  }
+
+  .public-message__intro > p {
+    margin-top: 14px;
+    font-size: 13px;
+  }
+
+  .public-message__form {
+    padding: 19px 14px;
+    border-radius: 16px;
+  }
+
+  .public-message__fields {
+    grid-template-columns: 1fr;
+    gap: 17px;
+  }
+
+  .public-message__field--full {
+    grid-column: auto;
+  }
+
+  .public-message__form-heading h3 {
+    font-size: 18px;
+  }
+
+  .public-message__submit {
+    min-height: 47px;
+  }
+}

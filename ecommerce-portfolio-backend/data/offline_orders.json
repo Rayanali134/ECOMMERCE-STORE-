@@ -1,0 +1,35 @@
+[
+  {
+    "_id": "off-ord-1795098485998",
+    "orderNumber": "ORD-20261119-GYV9",
+    "customer": {
+      "name": "Test User",
+      "email": "customer@store.com",
+      "phone": "03213633473",
+      "whatsapp": "03213633473",
+      "address": "Delivery Address",
+      "city": "Lahore",
+      "postalCode": "",
+      "notes": ""
+    },
+    "items": [
+      {
+        "product": "prod-1",
+        "title": "Aura Pro Wireless Hybrid ANC Headphones",
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&q=80",
+        "price": 14999,
+        "quantity": 2,
+        "selectedVariant": {},
+        "total": 29998
+      }
+    ],
+    "subtotal": 29998,
+    "shippingFee": 0,
+    "discount": 0,
+    "totalAmount": 29998,
+    "paymentMethod": "cash_on_delivery",
+    "paymentStatus": "unpaid",
+    "orderStatus": "processing",
+    "createdAt": "2026-11-19T14:28:05.998Z"
+  }
+]

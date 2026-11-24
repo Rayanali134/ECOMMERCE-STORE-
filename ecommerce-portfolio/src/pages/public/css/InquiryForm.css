@@ -1,0 +1,282 @@
+
+.inquiry-public {
+  --inq-accent: #8170ff;
+  --inq-text: #f1f2fb;
+  --inq-muted: #9ba3b8;
+  --inq-border: rgba(255,255,255,.09);
+
+  display: grid;
+  grid-template-columns: minmax(0,.85fr) minmax(0,1.15fr);
+  align-items: center;
+  gap: 48px;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: clamp(22px,5vw,60px);
+  color: var(--inq-text);
+  background:
+    radial-gradient(ellipse at top left,rgba(129,112,255,.13),transparent 48%),
+    #0c0f17;
+  border: 1px solid var(--inq-border);
+  border-radius: 24px;
+  font-family: "Outfit",sans-serif;
+}
+
+.inquiry-public *,
+.inquiry-public *::before,
+.inquiry-public *::after {
+  box-sizing: border-box;
+}
+
+.inquiry-public__intro { min-width: 0; }
+
+.inquiry-public__eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  color: #b3a8ff;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.inquiry-public__eyebrow > span {
+  width: 25px;
+  height: 2px;
+  background: var(--inq-accent);
+}
+
+.inquiry-public__intro h2 {
+  margin: 0;
+  font-size: clamp(32px,4vw,51px);
+  line-height: 1.15;
+  letter-spacing: -1.8px;
+  font-weight: 800;
+}
+
+.inquiry-public__intro h2 span { color: #a093ff; }
+
+.inquiry-public__intro > p {
+  margin: 19px 0 0;
+  color: var(--inq-muted);
+  font-size: 14px;
+  line-height: 1.9;
+}
+
+.inquiry-public__benefits {
+  display: grid;
+  gap: 13px;
+  margin-top: 30px;
+}
+
+.inquiry-public__benefits > div {
+  display: flex;
+  align-items: flex-start;
+  gap: 13px;
+  padding: 15px;
+  border: 1px solid var(--inq-border);
+  border-radius: 13px;
+  background: rgba(255,255,255,.025);
+}
+
+.inquiry-public__benefit-icon,
+.inquiry-public__heading-icon {
+  display: grid;
+  place-items: center;
+  flex: 0 0 43px;
+  width: 43px;
+  height: 43px;
+  color: #b9afff;
+  background: rgba(129,112,255,.14);
+  border: 1px solid rgba(129,112,255,.18);
+  border-radius: 12px;
+}
+
+.inquiry-public__benefits strong {
+  color: #e9e9f6;
+  font-size: 13px;
+}
+
+.inquiry-public__benefits p {
+  margin: 5px 0 0;
+  color: var(--inq-muted);
+  font-size: 11px;
+  line-height: 1.7;
+}
+
+.inquiry-public__form {
+  min-width: 0;
+  padding: clamp(20px,3vw,31px);
+  background: linear-gradient(145deg,rgba(255,255,255,.035),transparent 45%),#131725;
+  border: 1px solid var(--inq-border);
+  border-radius: 20px;
+  box-shadow: 0 25px 60px rgba(0,0,0,.2);
+}
+
+.inquiry-public__form-heading {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  margin-bottom: 23px;
+}
+
+.inquiry-public__form-heading h3 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.inquiry-public__form-heading p {
+  margin: 5px 0 0;
+  color: var(--inq-muted);
+  font-size: 11px;
+}
+
+.inquiry-public__feedback {
+  display: flex;
+  gap: 9px;
+  padding: 12px;
+  margin-bottom: 17px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  font-size: 12px;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+
+.inquiry-public__feedback--success {
+  color: #9deac0;
+  background: rgba(16,185,129,.09);
+  border-color: rgba(16,185,129,.2);
+}
+
+.inquiry-public__feedback--error {
+  color: #ffb3c0;
+  background: rgba(244,63,94,.09);
+  border-color: rgba(244,63,94,.2);
+}
+
+.inquiry-public__grid {
+  display: grid;
+  grid-template-columns: repeat(2,minmax(0,1fr));
+  gap: 17px 14px;
+}
+
+.inquiry-public__field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 0;
+}
+
+.inquiry-public__field--full { grid-column: 1/-1; }
+
+.inquiry-public__field > span {
+  color: #dfe1ef;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.inquiry-public__field input,
+.inquiry-public__field select,
+.inquiry-public__field textarea {
+  width: 100%;
+  min-width: 0;
+  padding: 12px 13px;
+  color: #f2f2fc;
+  background: #0c101a;
+  border: 1px solid rgba(255,255,255,.1);
+  border-radius: 10px;
+  outline: none;
+  font: inherit;
+  font-size: 12px;
+  transition: border-color .2s,box-shadow .2s;
+}
+
+.inquiry-public__field input,
+.inquiry-public__field select { height: 45px; }
+
+.inquiry-public__field select { color-scheme: dark; }
+
+.inquiry-public__field option {
+  color: #f2f2fc;
+  background: #151927;
+}
+
+.inquiry-public__field textarea {
+  min-height: 125px;
+  resize: vertical;
+  line-height: 1.7;
+}
+
+.inquiry-public__field input::placeholder,
+.inquiry-public__field textarea::placeholder { color: #788197; }
+
+.inquiry-public__field input:focus,
+.inquiry-public__field select:focus,
+.inquiry-public__field textarea:focus {
+  border-color: rgba(129,112,255,.8);
+  box-shadow: 0 0 0 3px rgba(129,112,255,.1);
+}
+
+.inquiry-public__field small {
+  align-self: flex-end;
+  color: #8790a5;
+  font-size: 10px;
+}
+
+.inquiry-public__submit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 11px;
+  width: 100%;
+  min-height: 48px;
+  margin-top: 22px;
+  padding: 12px 16px;
+  color: white;
+  background: linear-gradient(110deg,#8a77ff,#6551e8);
+  border: 0;
+  border-radius: 11px;
+  font-size: 13px;
+  font-weight: 800;
+  cursor: pointer;
+  transition: transform .2s,filter .2s;
+}
+
+.inquiry-public__submit:hover:not(:disabled) {
+  transform: translateY(-2px);
+  filter: brightness(1.1);
+}
+
+.inquiry-public__submit:disabled { opacity: .7; cursor: wait; }
+
+.inquiry-public__spin {
+  animation: inq-spin 1s linear infinite;
+}
+
+@keyframes inq-spin { to { transform: rotate(360deg); } }
+
+.inquiry-public__note {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  margin: 14px 0 0;
+  color: #8d96aa;
+  font-size: 10px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  .inquiry-public { grid-template-columns: 1fr; gap: 30px; }
+  .inquiry-public__intro h2 { max-width: 650px; }
+}
+
+@media (max-width: 520px) {
+  .inquiry-public { padding: 20px 13px; gap: 24px; border-radius: 17px; }
+  .inquiry-public__form { padding: 19px 13px; }
+  .inquiry-public__intro h2 { font-size: 34px; letter-spacing: -1px; }
+  .inquiry-public__grid { grid-template-columns: 1fr; }
+  .inquiry-public__field--full { grid-column: auto; }
+}
